@@ -3,8 +3,8 @@ using namespace std;
 
 int binary_search(int arr[], int n, int key){
 
-int s = 0;
-int e = n-1;
+int s = 0;           //s-> start index
+int e = n-1;        //e->end index
 while(e>=s){
     int mid = (s+e)/2;
 
